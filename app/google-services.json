@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "340867590933",
+    "project_id": "cancerforum-5d7ed",
+    "storage_bucket": "cancerforum-5d7ed.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:340867590933:android:080b0a79f7189256aa171c",
+        "android_client_info": {
+          "package_name": "com.example.forumapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "340867590933-3rbq5cc0jeijdrm8mos0fo4ghprlbb0b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.forumapp",
+            "certificate_hash": "eab6afddc0cfd6bb8159d7e11db410fd6f785b73"
+          }
+        },
+        {
+          "client_id": "340867590933-p0espt475h0b47d1rir20givog0gs3l2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2---ETF751JkvTqg7XJ31Dqu5S-MQzEw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "340867590933-p0espt475h0b47d1rir20givog0gs3l2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

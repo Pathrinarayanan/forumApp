@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".Login.Register">
+
+    <EditText
+        android:id="@+id/txtEmail"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:background="#313131"
+        android:backgroundTint="#313131"
+        android:ems="10"
+        android:hint="@string/enter_your_email"
+        android:importantForAutofill="no"
+        android:inputType="textEmailSubject"
+        android:textColor="@color/white"
+        android:textColorHint="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.236"
+        tools:ignore="TextContrastCheck" />
+
+    <Button
+        android:id="@+id/btnSendOTP"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:backgroundTint="@color/xrossorange"
+        android:text="@string/next"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.334"
+        tools:ignore="TextContrastCheck" />
+
+    <TextView
+        android:id="@+id/txtenteremail"
+        android:layout_width="152dp"
+        android:layout_height="30dp"
+        android:text="@string/enter_email"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.042" />
+
+    <TextView
+        android:id="@+id/txtenteremail_field"
+        android:layout_width="197dp"
+        android:layout_height="24dp"
+        android:text="@string/your_email_address"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.14"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.179" />
+</androidx.constraintlayout.widget.ConstraintLayout>
